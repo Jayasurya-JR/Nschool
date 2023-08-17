@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+
+/* media link styles */
+
+.media-icons a,
+.contacts a {
+  color: black;
+  text-decoration: none;
+}
+
+.fab,
+.fas {
+  font-size: 18px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-right:10px;
+}
+
+.fa-instagram::before {
+  background: linear-gradient(to right, #833ab4, #c13584, #e1306c, #fd1d1d);
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.gmail-icon{
+  background-color: #e0e0e0;
+  border: 1px solid #666666;
+  padding: 5px;
+  border-radius: 5px;
+}
+.contacts {
+  text-align: right;
+}
+
+.fa-whatsapp::before{
+  padding: 2px;
+  background-color: #25d366;
+  border-radius: 3px;
+}
+
+/* Navigation bar */
+
+.brand-org, .brand-blue {
+  color: #F47422;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.nav-link:hover{
+  color: #F47422;
+}
+
+.brand-blue {
+    color: #19467E;
+    font-size: 20px;
+    margin-top: -10px;
+  }
+
+.fa-bars::before{
+    color: #19467E;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    background: none;
+}
+
+.fa-bars:focus{
+    background: none;
+}
+
+/* Intro container */
+
+.heading-blue{
+  color: #19467E;
+  font-size: 48px;
+}
+
+.heading-org{
+  color: #F47422;
+  font-size: 48px;
+}
+
+.intro-para{
+  font-size: 20px;
+  color: #666666;
+}
+
+.para-box{
+ width: 422px;
+ background-color: #19467E;
+ font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 11px 0;
+  border-radius: 5px;
+}
+
+
+/* Placement partners */
+
+.placement-container{
+  margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.blue-heading{
+  color: #19467E;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.blue-heading span{
+  color: #F47422;
+}
+
+.brand-img{
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+/* Course container */
+
+.course-container{
+  background-color: #d2fdff4a;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.course{
+  border-radius: 20px;
+  width: 560px;
+  height: 387px;
+  margin: 30px auto;
+
+}
+
+.course-passage{
+  font-size: 14px;
+  color: #666666;
+}
+
+.tech .sw{
+  border: 2px solid #3982DB;
+  font-size: 12px;
+  text-align: center;
+  color: #000;
+  background-color: #F6F7FB;
+  border-radius: 10px;
+  margin:0 5px ;
+
+}
+
+/* Course offered */
+
+.course-offered{
+  background-color: #10397f;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.course-heading{
+  color: #fff;
+  font-size: 58px;
+}
+
+.course-heading span{
+  color: #F47422;
+}
+
+.course-para{
+  color: #fff;
+  font-size: 20px;
+}
+
+.box-details{
+  border-radius: 10px;
+  width: 211px;
+  height: 236px;
+  margin: 0 20px;
+  transform: translateY(50px);
+  transition: transform 0.4s linear;
+}
+
+.box-details:hover{
+  transform: scale(1.1);
+}
+
+
+.box-heading1{
+  color: #F57423;
+  font-size: 70px;
+  padding-bottom: 50px;
+}
+
+.box-heading2{
+  color: #19467E;
+  font-size: 26px;
+}
+
+
+/* about container */
+
+.about-container{
+  
+}
