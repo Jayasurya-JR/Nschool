@@ -1,4 +1,4 @@
-var experience = setInterval(yearsExperience, 100);
+var experience = setInterval(yearsExperience, 200);
 let count1 = 0;
 
 function yearsExperience(){
@@ -11,7 +11,7 @@ function yearsExperience(){
 }
 
 
-var courses = setInterval(careerCourses, 50);
+var courses = setInterval(careerCourses, 100);
 let count2 = 0;
 
 function careerCourses(){
@@ -24,7 +24,7 @@ function careerCourses(){
 }
 
 
-var recruiters = setInterval(valuedRecruiters, 25);
+var recruiters = setInterval(valuedRecruiters, 50);
 let count3 = 0;
 
 function valuedRecruiters(){
@@ -37,7 +37,7 @@ function valuedRecruiters(){
 }
 
 
-var trainers = setInterval(certifiedTrainers, 100);
+var trainers = setInterval(certifiedTrainers, 200);
 let count4 = 0;
 
 function certifiedTrainers(){
@@ -61,3 +61,4 @@ function studentsCertified(){
         clearInterval(students)
     }
 }
+
