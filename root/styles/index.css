@@ -143,6 +143,25 @@ a:hover{
   border-radius: 5px;
 }
 
+/* message box */
+
+.message-box{
+  position: fixed;
+  right: -119px;
+  top: 289px;
+}
+.click-bar{
+  rotate: -90deg;
+  background-color: #F57423;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 290px;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
 
 /* Placement partners */
 
@@ -301,7 +320,7 @@ a:hover{
 /* about container */
 
 .about-container{
-  padding: 50px 0;
+  padding: 50px 0 0;
   position: relative;
 }
 
@@ -309,7 +328,7 @@ a:hover{
   position: absolute;
   bottom: -180px;
   right: 0;
-  z-index: -1;
+  z-index: 0;
 }
 
 .about-heading{
@@ -356,6 +375,120 @@ a:hover{
 
 
 /* testimonial container */
+
+.testimonial-main{
+  position: relative;
+  background-image: url(../images/bar.svg);
+  background-repeat: no-repeat;
+  background-position: left 8pc;
+}
+
+
+
+.carousel-container{
+  position: absolute;
+  z-index: 2;
+  top: 110px;
+    left: 133px;
+}
+
+.fa-angle-right-1, .fa-angle-left-1 {
+  color: #19467E;
+    background-image: linear-gradient(#FFD6AB, #F6FAFB);
+    font-size: 50px;
+    padding: 18px 30px;
+    border-radius: 50%;
+}
+
+.fa-angle-left-1{
+  right: -371px;
+  top: 475px;
+    position: relative;
+}
+
+.fa-angle-right-1{
+  left: -62px;
+  top: 475px;
+    position: relative;
+}
+
+.carousel-box{
+  width: 554px;
+  height: 554px;
+  background-color: #19467E;
+  color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+   
+}
+
+.carousel-top, .carousel-center{
+  margin-bottom: 40px;
+}
+
+.carousel-center .carousel-para {
+  text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.profile-name{
+  font-size: 24px;
+}
+
+.course-name{
+  font-size: 16px;
+}
+
+.testimonial-right{
+  width: 1108px;
+  height: 817px;
+  position: relative;
+  left: 299px;
+  background-color: #F6FAFB;
+  z-index: -1;
+}
+
+.testi-vector1{
+position: absolute;
+top: 92px;
+    left: 230px;
+
+}
+
+.testi-vector2{
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+}
+
+.testi-innerbox{
+  width: 560px;
+  height: 368px;
+  position: absolute;
+  top: 217px;
+  left: 390px;
+}
+
+.testi-head-blue{
+  color: #19467E;
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.testi-head-org{
+  color: #F57423;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.testi-para{
+  color: #333333;
+  font-size: 20px;
+}
+
+
 
 
 /* placement carousel */
@@ -428,14 +561,15 @@ padding-top: 50px;
 }
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #e1e1e1;
+  background-color: rgb(0,0,0,0);
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
   top: 25%;
+  opacity: 1;
 }
 
-.fa-angle-right, .fa-angle-left {
+.fa-angle-right-2, .fa-angle-left-2 {
   color: #19467E;
     background-image: linear-gradient(#FFD6AB, #F6FAFB);
     font-size: 50px;
@@ -443,12 +577,12 @@ padding-top: 50px;
     border-radius: 50%;
 }
 
-.fa-angle-left{
+.fa-angle-left-2{
   right: -24px;
     position: relative;
 }
 
-.fa-angle-right{
+.fa-angle-right-2{
   left: -24px;
     position: relative;
 }
@@ -521,6 +655,32 @@ padding-top: 50px;
   border: none;
 }
 
+.accordion-button::after {
+  background-image: url(../images/plus.svg);
+  background-size: 15px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/minus.svg);
+  background-size: 15px;
+  transform: none;
+  position: relative;
+  top: 6px;
+}
+
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color:rgba(0, 0, 0, 0.3);
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #fff;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
 
 
 /* blog container */
@@ -635,7 +795,9 @@ margin-bottom: 10px;
 /* copyright container */
 .footer-brand{
   text-decoration: none;
+  float: left;
 }
+
 .copyright-container{
   background-color: #002655;
   padding: 20px 0 10px;
@@ -667,6 +829,8 @@ margin-bottom: 10px;
   display: flex;
   list-style-type: none;
   cursor: pointer;
+  position: relative;
+  left: -60px;
 }
 
 .copy-link{
